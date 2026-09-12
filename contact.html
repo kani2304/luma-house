@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Luma House</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+<div class="ambient-glow orb-1" aria-hidden="true"></div>
+<div class="ambient-glow orb-2" aria-hidden="true"></div>
+
+<nav class="nav solid">
+  <a href="index.html" class="nav-logo">
+    <span class="nav-logo-mark"></span>
+    Luma House
+  </a>
+  <div class="nav-links">
+    <a href="index.html#selected-projects">Projects</a>
+    <a href="about.html">Studio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<div class="wrap contact-wrap">
+  <div class="reveal">
+    <div class="glass-pill" style="margin-bottom: 20px;"><span class="pulse-dot"></span> Studio Consultation</div>
+    <h1 class="contact-hed">Let&rsquo;s begin.</h1>
+    <div class="contact-detail">
+      <div class="lbl">Studio address</div>
+      <div class="val">Clerkenwell, London EC1</div>
+    </div>
+    <div class="contact-detail">
+      <div class="lbl">Email</div>
+      <div class="val"><a href="mailto:studio@lumahouse.co.uk">studio@lumahouse.co.uk</a></div>
+    </div>
+    <div class="contact-detail">
+      <div class="lbl">Studio hours</div>
+      <div class="val">Monday – Friday, 9am – 6pm</div>
+    </div>
+    <div class="contact-detail" style="margin-top:40px;padding-top:26px;border-top:1px solid var(--line);">
+      <div class="lbl">New commissions</div>
+      <div class="val" style="font-size:14px;color:var(--muted);-webkit-text-fill-color:var(--muted);max-width:38ch;line-height:1.74;margin-top:5px;">
+        We take on a small number of residential projects each year. If you&rsquo;re considering a new home, extension or interior, we&rsquo;d be glad to hear about it.
+      </div>
+    </div>
+  </div>
+
+  <div class="reveal d1">
+    <div class="inquiry-form-card">
+      <form class="inquiry-form" novalidate>
+        <div class="field">
+          <label for="f-name">Full name</label>
+          <input type="text" id="f-name" name="name" autocomplete="name" placeholder="E.g. Eleanor Vance" required>
+        </div>
+        <div class="field">
+          <label for="f-email">Email address</label>
+          <input type="email" id="f-email" name="email" autocomplete="email" placeholder="eleanor@domain.com" required>
+        </div>
+        <div class="field">
+          <label for="f-type">Type of project</label>
+          <select id="f-type" name="project-type">
+            <option value="">Please select</option>
+            <option>Residential design</option>
+            <option>Interior architecture</option>
+            <option>Bespoke furniture</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-budget">Approximate budget</label>
+          <select id="f-budget" name="budget">
+            <option value="">Please select</option>
+            <option>Under £50,000</option>
+            <option>£50,000 – £150,000</option>
+            <option>£150,000 – £350,000</option>
+            <option>£350,000+</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-msg">Tell us about your project</label>
+          <textarea id="f-msg" name="message" placeholder="Location, timeline, and architectural aspirations..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Enquiry</button>
+      </form>
+      <p class="consult-note">Prefer to speak first? <a href="#">Book a 30-minute studio call</a></p>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-logo">
+    <span class="nav-logo-mark" style="margin-right:8px;"></span>
+    Luma House
+  </div>
+  <div class="footer-links">
+    <a href="index.html#selected-projects">Projects</a>
+    <a href="about.html">Studio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <span class="footer-copy">Clerkenwell, London EC1 &ensp;·&ensp; &copy; 2026 Luma House Studio</span>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
